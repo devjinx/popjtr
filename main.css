@@ -1,0 +1,42 @@
+main {
+    position: absolute;
+}
+div.popup {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 10px 10px rgba(0,0, 0,0.5);
+    color: white;
+    background: rgba(0,0, 0,0.5)
+}
+div.overlay {
+    position: absolute;
+    padding: 10px;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    /* z-index: -1; */
+}
+
+:root {
+    --ds: linear-gradient( rgb(50, 202, 4),rgb(202, 199, 4));
+    --ac: linear-gradient( rgb(199, 49, 46), rgb(184, 184, 184));
+    --sk: linear-gradient( rgb(199, 46, 163), rgb(46, 171, 199));
+    --bcc: linear-gradient( rgb(125, 46, 199), rgb(199, 166, 46));
+}
+
+#DS {
+    background: var(--ds)!important;
+}
+#AC {
+    background: var(--ac)!important;
+}
+#SK {
+    background: var(--sk)!important;
+}
+#BC {
+    background: var(--bcc)!important;
+}
